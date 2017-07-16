@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/* WPBASE */
+
+/*hide or show to see page templates*/
+.page-type {display: block;}
+
+body { /*background-image: url(../../images/banner-image_03.jpg); background-position: center;*/}
+
+h1, h2, h3, h4, h5 {font-family: 'Roboto', sans-serif;}
+h1 {font-weight: 600;}
+p {font-family: 'Open Sans', sans-serif; font-size: 1rem;}
+span {float: left; width: 100%; font-size: 0.875rem; font-weight: 300;}
+a {}
+a:hover {text-decoration: underline;}
+blockquote {font-size: 0.875rem; font-weight: 300;}
+
+nav {float: left; width: 100%; height: auto; font-family: 'Open Sans', sans-serif; font-weight: 300; text-align: center;}
+nav ul {margin: 0px; padding: 0px;}
+nav li {float: left; width: 14.4%; /*14.28571428571429% limit to 6 items */list-style-type: none; margin: 0px 0.5rem;}
+nav li a {display: block; padding: 0.3rem 0.7rem;}
+
+header, footer, section, article, aside, blockquote {float: left; width: 100%; height: auto;}
+header {min-height: 10vh;}
+footer {height: 15vh; padding-top: 1.6rem;}
+section {}
+article {}
+aside {}
+
+
+#primary-menu {width: 100%;}
+#toggle-mobile-menu {width: 40px; height: 40px; margin-top: 0.9375rem; padding: 2.5px; display: none; background-color: rgba(255,255,255,1);}
+#mobile-menu-left {float: left; width: 60%; padding: 0px 0.9375rem;}
+#mobile-menu-right {float: right; width: 40%; padding: 0px 0.9375rem;}
+#mobile-menu {display: none; width: 100%;}
+#mobile-menu nav {float: left; width: 100%; height: auto;}
+#mobile-menu nav ul {margin: 0px; padding: 0px;}
+#mobile-menu nav li {float: left; width: 100%; list-style-type: none; margin: 0px 0.5rem; padding: 0.3rem 0.7rem;}
+#mobile-menu nav li a {display: block;}
+
+#background-image-slider {position: fixed; top: 0px; left: 0px; width: auto; max-width: 100%; z-index: -1;}
+
+#logo {float: right; width: auto; min-height: 60px; padding: 0.7rem;}
+
+#content-wrapper {float: left; width: 100%; min-height: 75vh; height: auto;}
+#content { width: 100%; height: auto;}
+#widget-content { width: 100%; height: auto;}
+.page-title {}
+.page-meta {}
+.feature-image {margin-top: 1.3rem; margin-bottom: 1.3rem;}
+
+/* RECENT POST Styles */
+#recent-posts {max-height: 300px; overflow-y: scroll; margin-bottom: 30px;}
+#recent-posts ul {margin: 0px; padding: 0px;}
+#recent-posts li {list-style-type: none; background: #fff; margin: 3px;}
+#recent-posts li a {display: block; padding: 0.3rem 0.7rem;}
+
+/* CUSTOM POST Styles */
+#custom-posts {max-height: 300px; overflow-y: scroll; margin-bottom: 30px;}
+#custom-posts ul {margin: 0px; padding: 0px;}
+#custom-posts li {list-style-type: none; background: #fff; margin: 3px;}
+#custom-posts li a {display: block; padding: 0.3rem 0.7rem;}
+
+/* SINGLE POST Styles  */
+#single-post {float: left; width: 100%; height: auto; margin-bottom: 1.8rem;}
+#single-post-thumbnail {float: left; width: 100%;}
+#single-post-thumbnail img {float: left; width: 100%;}
+#single-post-title {background: #424242; color: #fff;}
+#single-post-title a {color: #fff;}
+#single-post-content {float: left; width: 100%; padding: 0.7rem 0.3rem;}
+
+/* CUSTOM POST Styles */
+#custom-post {}
+.custom-post {}
+.custom-post-title {}
+.custom-post-thumb, .custom-post-thumb img {float: left; width: 100%;}
+.custom-post-excerpt {}
+
+
+/* WIDGET Styles */
+.widget-area {background-color: rgba(0,0,0,0.05); border: dotted 1px #000; margin-bottom: 1.6rem;}
+.widget-title {font-size: 1.3rem;}
+
+/*  BLOCK GRID Styles  */
+#block-grid {}
+.block-grid-thumbnail, .block-grid-thumbnail img {float: left; width: 100%;}
+.block-grid-title {float: left; width: 100%; text-align: center; background: #424242; color: #fff;}
+.block-grid-title a {color: #fff;}
+.block-grid-content {float: left; width: 100%; padding: 0.7rem 0.3rem;}
+
+/* PAGINATION Styles */
+#pagination {}
+#pagination-controls {float: left; width: 100%; height: 42px;}
+#go-prev {float: left; width: 50%; height: 42px; text-align: center;}
+#go-next {float: right; width: 50%; height: 42px; text-align: center;}
+.paged-grid-thumbnail, .paged-grid-thumbnail img {float: left; width: 100%;}
+.paged-grid-title {float: left; width: 100%; text-align: center; background: #424242; color: #fff;}
+
+/* OVERIDE WP DEFAULTS */
+.read-more {float: left; width: 120px; padding: 0.3rem 0.7rem; background: #424242;}
+.read-more a {display: block; color: #fff;}
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 1280px) {
+    body {overflow-x: hidden;}
+	#background-image-slider {width: 120%; max-width: 120%;}
+}
+
+@media (max-width: 1024px) {
+	#background-image-slider {width: 180%; max-width: 180%;}
+}

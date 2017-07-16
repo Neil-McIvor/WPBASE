@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* Custom Branding for WPBASE2 */
+
+/* TYPOGRAPHY Styles */
+body {background-color: #fff;}
+h1, h2, h3, h4, h5 {font-family: 'Roboto', sans-serif;}
+h1 {font-weight: 600;}
+p {font-family: 'Open Sans', sans-serif; font-size: 1rem;}
+span {font-size: 0.875rem; font-weight: 300;}
+a {}
+a:hover {text-decoration: underline;}
+blockquote {font-size: 0.875rem; font-weight: 300; margin: 1.6rem 0.7rem;}
+
+nav {font-family: 'Open Sans', sans-serif; font-weight: 300; text-align: center;}
+
+#mobile-menu-left {color: #fff;}
+#mobile-menu-right {color: #fff;}
+#mobile-menu nav {font-weight: 400; text-align: left;}
+
+/* LAYOUT Styles */
+#background-image-slider {opacity: 1;}
+#content-wrapper {border-top: solid 1px white; border-bottom: solid 1px white; background-color: rgba(255,255,255,0.8);}
+header {background-color: rgba(0,0,0,0.7);}
+header a {color: #fff;}
+footer {background-color: rgba(0,0,0,0.8);}
+footer a {color: #fff;}
+section {}
+article {}
+aside {}
+
+#content {background-color: rgba(255,255,255,0.8);}
+#widget-content {background-color: rgba(255,255,255,0.8);}
+.page-title {}
+.page-meta {}
+.feature-image {}
+
+/* RECENT POST Styles */
+#recent-posts {}
+#recent-posts ul {}
+#recent-posts li {background: #fff;}
+#recent-posts li a {}
+
+/* CUSTOM POST Styles */
+#custom-posts {}
+#custom-posts ul {}
+#custom-posts li { background: #dadada;}
+#custom-posts li a {}
+
+
+/* WIDGET Styles */
+.widget-area {background-color: rgba(0,0,0,0.05); border: dotted 1px #000;}
+.widget-title {font-size: 1.3rem;}
+/*  BLOCK GRID Styles  */
+.block-grid-title {text-align: center; background: #424242; color: #fff;}
+.block-grid-title a {color: #fff;}
+/* PAGINATION Styles */
+.paged-grid-title {text-align: center; background: #424242; color: #fff;}
+.paged-grid-title a {color: #fff;}
+
+/* OVERIDE WP DEFAULTS */
+.read-more { background: #424242;}
+.read-more a {color: #fff;}
